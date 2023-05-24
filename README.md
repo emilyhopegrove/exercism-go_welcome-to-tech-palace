@@ -116,4 +116,4 @@ CleanUpMessage(message)
 
 ### Contributed to by
 
-- @kekimaker
+- @kekimaker# exercism-go_welcome-to-tech-palace
