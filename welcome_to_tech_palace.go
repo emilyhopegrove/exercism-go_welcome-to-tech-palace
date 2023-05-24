@@ -6,7 +6,7 @@ import (
 
 // WelcomeMessage returns a welcome message for the customer.
 func WelcomeMessage(customer string) string {
-	return "Welcome to the Tech Palace, " + strings.ToUpper(customer)
+	return fmt.Sprintf("Welcome to the Tech Palace, %s", strings.ToUpper(customer))
 }
 
 // AddBorder adds a border to a welcome message.
